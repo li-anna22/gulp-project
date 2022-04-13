@@ -21,18 +21,18 @@ var ITEM_SELECTOR = ".slider__item";
 var CONTROL_CLASS = "slider__control";
 
 /* var ITEM_CLASS_ACTIVE = 'slider__item_active';
-  var CONTROL_SELECTOR = '.slider__control';
-  var CONTROL_CLASS_SHOW = 'slider__control_show';
-  // индикаторы
-  var INDICATOR_WRAPPER_ELEMENT = 'ol';
-  var INDICATOR_WRAPPER_CLASS = 'slider__indicators';
-  var INDICATOR_ITEM_ELEMENT = 'li';
-  var INDICATOR_ITEM_CLASS = 'slider__indicator';
-  var INDICATOR_ITEM_CLASS_ACTIVE = 'slider__indicator_active';
-  // порог для переключения слайда (40%)
-  var POS_THRESHOLD = 40;
-  // класс для отключения transition
-  var TRANSITION_NONE = 'transition-none';*/
+var CONTROL_SELECTOR = '.slider__control';
+var CONTROL_CLASS_SHOW = 'slider__control_show';
+// индикаторы
+var INDICATOR_WRAPPER_ELEMENT = 'ol';
+var INDICATOR_WRAPPER_CLASS = 'slider__indicators';
+var INDICATOR_ITEM_ELEMENT = 'li';
+var INDICATOR_ITEM_CLASS = 'slider__indicator';
+var INDICATOR_ITEM_CLASS_ACTIVE = 'slider__indicator_active';
+// порог для переключения слайда (40%)
+var POS_THRESHOLD = 40;
+// класс для отключения transition
+var TRANSITION_NONE = 'transition-none';*/
 
 var SELECTOR_PREV = '.slider__control[data-slide="prev"]';
 var SELECTOR_NEXT = '.slider__control[data-slide="next"]';

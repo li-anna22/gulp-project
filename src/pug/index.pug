@@ -1,0 +1,258 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="./assets/css/app.css")
+        script(defer='' src='/assets/js/app.js') 
+    body
+        header.header
+            .header__container
+                a.header__logo(href="#")
+                    img(src="./assets/imgs/header/logo.svg" alt="Логотип")
+                    nav.header__menu.menu
+                        ul.menu__list
+                            li.menu__item
+                                a.menu__link(href="#") Home
+                            li.menu__item
+                                a.menu__link(href="#") Luxury packages
+                            li.menu__item
+                                a.menu__link(href="#") Book with us
+                            li.menu__item
+                                a.menu__link(href="#") Why Lux Trips
+                            li.menu__item
+                                a.menu__link(href="#") Contact
+                            li.menu__item
+                                a.menu__link(href="#") Client Area
+                    span#burger.burger 
+                    button.header__button.button(type='button' name='call_me') CALL ME BACK
+                        .button-border
+                            img(src="./assets/imgs/header/border.png", alt="")
+        main.page
+            section.page__main-block.main-block
+                .main-block__slogan the world’s most
+                .main-block__lake
+                h2.main-block__title1 EXTRA ORDINARY
+                .main-block__mountains
+                h2.main-block__title2 PLACES
+                .main-block__hill
+                img.rhombus1(src="./assets/imgs/main-page/rhombus1.svg", alt="")
+                img.rhombus2(src="./assets/imgs/main-page/rhombus2.svg", alt="")
+                img.rhombus3(src="./assets/imgs/main-page/rhombus3.svg", alt="")
+                img.rhombus4(src="./assets/imgs/main-page/rhombus4.svg", alt="")
+                img.rhombus5(src="./assets/imgs/main-page/rhombus5.svg", alt="")
+                .main-block__clouds-left
+                    img(src="./assets/imgs/experiences/clouds-left.png", alt="")
+                .main-block__clouds-right
+                    img(src="./assets/imgs/experiences/clouds-right.png", alt="")
+                .main-block__searcher.searcher
+                    .searcher__container.container
+                        .searcher__top
+                            .searcher__title FIND YOUR JOURNEY
+                        form.searcher__form(action="") 
+                            .searcher__content
+                                .searcher__option
+                                    img.searcher__image(src="./assets/imgs/searcher/icon_destination.png", alt="")
+                                    .searcher__field
+                                        span.searcher__subtitle Destination
+                                        input.searcher__text(type='text' name='destination' placeholder='Where are you going?')
+                                .searcher__option
+                                    img.searcher__image(src="./assets/imgs/searcher/icon_travel.png", alt="")
+                                    .searcher__field
+                                        span.searcher__subtitle Travel type
+                                        input.searcher__text(type='text' name='travel-type' placeholder='Adventure Travel')
+                                .searcher__option
+                                    img.searcher__image(src="./assets/imgs/searcher/icon_calendar.png", alt="")
+                                    .searcher__field
+                                        span.searcher__subtitle When
+                                        input.searcher__text(type='text' name='date' placeholder='14 Dec 2022')
+                                .searcher__option
+                                    img.searcher__image(src="./assets/imgs/searcher/icon_travellers.png", alt="")
+                                    .searcher__field
+                                        span.searcher__subtitle Travellers
+                                        input.searcher__text(type='text' name='travellers' placeholder='2 Persons')    
+                            button.searcher__button.button(type='button' name='find')
+                                img.button__image(src="./assets/imgs/searcher/icon_search.svg", alt="")
+                                | FIND
+            section.page__experiences.experiences
+                .experiences__container.container
+                    .experiences__title.subtitle
+                        h3.experiences__text Top Rated Experiences
+                    nav.experiences__menu
+                        ul.experiences__list
+                            li.experiences__item
+                                a.experiences__link(href="#") World
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") Africa
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") Asia
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") Europe
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") North America
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") South America
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") Antarctica
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                            li.experiences__item
+                                a.experiences__link(href="#") Australia
+                                img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+                        .experiences__slider
+                            .slider
+                                .slider__wrapper
+                                    .slider__items
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Austria
+                                                    .slider__title Winter Park Ski Holiday
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 1490
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Peru
+                                                    .slider__title Machu Picchu
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 2300
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 5.0
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Croatia
+                                                    .slider__title Hvar
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Jordan
+                                                    .slider__title Wadi Musa
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Jordan
+                                                    .slider__title Wadi Musa
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Jordan
+                                                    .slider__title Wadi Musa
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Jordan
+                                                    .slider__title Wadi Musa
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                        .slider__item
+                                            .slider__content
+                                                .slider__text
+                                                    .slider__place
+                                                        img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                                                        span Jordan
+                                                    .slider__title Wadi Musa
+                                                    .slider__booking
+                                                        .slider__price From 
+                                                            span € 4500
+                                                        button.slider__button CUSTOMISE
+                                                .slider__rate
+                                                    .rate__number 4.0
+                                                    img(src="./assets/imgs/slider/rating0.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                                    img(src="./assets/imgs/slider/rating1.svg", alt="")
+                                a.slider__control(href='#' data-slide='prev')
+                                a.slider__control(href='#' data-slide='next')
