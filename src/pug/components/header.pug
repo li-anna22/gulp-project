@@ -1,0 +1,13 @@
+header.header
+    .header__container
+        a.header__logo(href="#")
+            img(src="./assets/imgs/header/logo.svg" alt="Логотип")
+            nav.header__menu.menu
+                    l.menu__list
+                    each HeaderMenu in ["Home", "Luxury packages", "Book with us", "Why Lux Trips", "Contact", "Client Area"] 
+                        li.menu__item
+                            a.menu__link(href="#")=HeaderMenu
+            span#burger.burger 
+            button.header__button.button(type='button' name='call_me') CALL ME BACK
+                .button-border
+                    img(src="./assets/imgs/header/border.png", alt="")

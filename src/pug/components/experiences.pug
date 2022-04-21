@@ -1,0 +1,37 @@
+include ../mixins/sliderRate.pug
+include ../mixins/slider__item.pug
+
+section.page__experiences.experiences
+    .experiences__container.container
+        .experiences__title.subtitle
+            h3.experiences__text Top Rated Experiences
+        nav.experiences__menu
+            ul.experiences__list
+                each ExpMenu in ["World", "Africa", "Asia", "Europe", "North America","South America", "Antarctica", "Australia"]
+                    li.experiences__item
+                        a.experiences__link(href="#")=ExpMenu
+                        img.experiences__icon(src="./assets/imgs/experiences/icon.svg", alt="")
+    .experiences__slider
+        .slider
+            .slider__wrapper
+                .slider__items
+                    +slider__item("Austria","Winter Park Ski Holiday","€ 1490")
+                        +sliderRate4
+                    +slider__item("Peru","Machu Picchu","€ 2300")
+                        +sliderRate5
+                    +slider__item("Croatia","Hvar","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+                    +slider__item("Jordan","Wadi Musa","€ 4500")
+                        +sliderRate4
+            a.slider__control(href='#' data-slide='prev')
+            a.slider__control(href='#' data-slide='next')

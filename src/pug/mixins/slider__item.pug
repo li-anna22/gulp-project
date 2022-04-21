@@ -1,0 +1,14 @@
+mixin slider__item(sliderLocation, sliderTitle, sliderPrice)
+    .slider__item
+        .slider__content
+            .slider__text
+                .slider__place
+                    img(src="./assets/imgs/slider/location-icon.svg", alt="")
+                    span=sliderLocation
+                .slider__title=sliderTitle
+                .slider__booking
+                    .slider__price From 
+                        span=sliderPrice
+                    button.slider__button CUSTOMISE
+            .slider__rate
+                block
